@@ -12,4 +12,4 @@ Uncomment https://github.com/OrkunAvci/Content-Based-Image-Retrieval/blob/ae4841
 
 You can configure the list of folders in `file_manipulations.py` for custom tests. Be sure to run `start_up()` every time you want to overwrite the stored data.
 
-There are 60 images per folder in original data but only half of it is used here. First 20 as training and next 10 as testing. You can customize these numbers in `file_manipulations.py`.
+There are on average 50 images per folder in the original data set but only 30 of it is used here. First 20 as training and next 10 as testing. You can customize these numbers in `file_manipulations.py`.
