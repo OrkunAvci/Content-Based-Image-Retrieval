@@ -1,3 +1,6 @@
+# Data is taken from http://www.vision.caltech.edu/Image_Datasets/Caltech101/
+/data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
