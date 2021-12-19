@@ -39,9 +39,7 @@ if __name__ == "__main__":
 	for test_index in range(len(test_rgb)) :
 		similarity_dict = {}
 		for train_index in range(len(train_rgb)) :
-			similarity_dict[train_index] = np.linalg.norm(
-				np.array(test_rgb[test_index]) - np.array(train_rgb[train_index]))
-		similarity_dict = {k : v for k, v in
-		                   sorted(similarity_dict.items(), key = lambda item : item[1], reverse = True)}
-		print(dict(list(similarity_dict.items())[:5]))
+			similarity_dict[train_index] = np.linalg.norm(np.array(test_rgb[test_index]) - np.array(train_rgb[train_index]))
+		similarity_dict = {k : v for k, v in sorted(similarity_dict.items(), key = lambda item : item[1])}
+		print(int(test_index/10)," - ",dict(list(similarity_dict.items())[:5]))
 	
