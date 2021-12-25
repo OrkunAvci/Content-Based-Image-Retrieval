@@ -1,6 +1,6 @@
 # Content Based Image Retrieval
 
-In simplest terms, this is homework. In more complex terms, a program to create histograms(RGB & HSV) out of images into training and testing data sets and find top 5 most similar images in `train` for each image in `test`.
+In simplest terms, this is homework. In more complex terms, a program to create RGB and HSV representation of images into training and testing data sets and find top 5 most similar images in `train` for each image in `test`.
 
 ## Data
 
@@ -13,3 +13,4 @@ Uncomment https://github.com/OrkunAvci/Content-Based-Image-Retrieval/blob/ae4841
 You can configure the list of folders in `file_manipulations.py` for custom tests. Be sure to run `start_up()` every time you want to overwrite the stored data.
 
 There are on average 50 images per folder in the original data set but only 30 of it is used here. First 20 as training and next 10 as testing. You can customize these numbers in `file_manipulations.py`.
+
